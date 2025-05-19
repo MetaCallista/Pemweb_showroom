@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom styles */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.ant-btn-primary {
+  @apply bg-blue-600 hover:bg-blue-700;
+}
+
+.ant-rate-star-full .ant-rate-star-first, 
+.ant-rate-star-full .ant-rate-star-second {
+  @apply text-yellow-400;
+}

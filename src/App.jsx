@@ -1,9 +1,13 @@
-import Home from './pages/Home';
-import 'antd/dist/reset.css';
-import './index.css';
+import React from 'react';
+import './App.css'; // kalau ada styling global
+import Home from './pages/Home'; // asumsi kamu menyimpan Home.jsx di folder `pages`
 
-function App() {
-  return <Home />;
-}
+const App = () => {
+  return (
+    <div className="App">
+      <Home />
+    </div>
+  );
+};
 
 export default App;

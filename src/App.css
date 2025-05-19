@@ -1,9 +1,8 @@
 /* Center dan batasi lebar layout utama */
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  /* text-align center dihapus supaya layout Ant Design bisa pakai alignment default */
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 /* Logo styling untuk header atau branding */
